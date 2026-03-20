@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: rgb(145, 156, 106);
+    font-family:'nosifer', cursive;
+    text-align: center;
+}
+#grid{
+    
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    gap: 3px;
+    width: min(90vw,700px);
+    margin: auto;
+}
+.dot{
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:#333;
+    width: 100%;
+    height: 100%;
+}
+.filled{
+    background: white;
+}
+.inactive{
+    opacity: 0.31;
+}
+.today{
+    background: rgb(248, 0, 0);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+
+    width: min(90vw,700px);
+    margin: 20px auto;
+}
+#progress{
+    font-size: 18px;
+    color: #fff;
+    
+}
