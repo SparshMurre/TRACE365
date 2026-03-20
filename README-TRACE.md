@@ -1,1 +1,1 @@
-A dot-based visualization of yearly time progress
+
